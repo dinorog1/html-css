@@ -1,0 +1,12 @@
+
+
+body:hover{
+    background: rgb(142, 142, 221);
+}
+@keyframes slide-up{
+    from{opacity: 0; transform: translateY(50px);}
+    to{opacity: 1; transform: translateY(0);}
+}
+section {
+    animation: slide-up 10s ease-in-out;
+}
